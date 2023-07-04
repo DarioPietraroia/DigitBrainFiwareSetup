@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+#  curl commands to reload the data from the previous tutorial
+#
+#
+
+set -e
+
+printf "⏳ Loading context data "
+
+#
+# Create a series of facilities
+#
+curl -s -o /dev/null -X POST \
+  'http://orion:1026/v2/op/update' \
+  -H 'Content-Type: application/json' \
+  -g -d '{
+  "actionType": "append",
+  "entities": [
+  	{
+  		"id":"urn:ngsi-ld:Facility:001","type":"Facility",
+  		"address":{"type":"PostalAddress","value":{"streetAddress":"Via Monte Corno 10","addressRegion":"Veneto","addressLocality":"San Giovanni Lupatoto","postalCode":"37100"}},
+  		"location":{"type":"geo:json","value":{"type":"Point","coordinates":[45.2619,10.5934]}},
+  		"name":{"type":"Text","value":"Metalpress"}
+  	}
+  ]
+}'
+
+curl -s -o /dev/null -X POST \
+  'http://orion:1026/v2/op/update' \
+  -H 'Content-Type: application/json' \
+  -g -d '{
+  "actionType": "append",
+  "entities": [
+	{
+  		"id":"urn:ngsi-ld:IndustrialProduct:001","type":"IndustrialProduct",
+  		"name":{"type":"Text","value":"Press"},
+  		"refFacility":{"type":"Relationship","value":"urn:ngsi-ld:Facility:001"}
+  	},
+	{
+  		"id":"urn:ngsi-ld:IndustrialProduct:002","type":"IndustrialProduct",
+  		"name":{"type":"Text","value":"Robot"},
+  		"refFacility":{"type":"Relationship","value":"urn:ngsi-ld:Facility:001"}
+  	}
+  ]
+}'
+echo -e " \033[1;32mdone\033[0m"
+
