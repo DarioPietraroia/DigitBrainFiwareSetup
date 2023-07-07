@@ -3,9 +3,15 @@ This repository contains a local FIWARE setup which can be used a as a test envi
 
 # Table of contents 
 
-1. [Architecture](#my-first-title)
-2. [Installation](#my-second-title)
-3. [Setting it up]
+1. [Architecture](#architecture)
+2. [Installation](#installation)
+3. [Setting it up](#setup)
 4. 
 ## Architecture
+FIWARE can be deployed 
+
+## Installation
+FIWARE can be deployed 
+
+## Setting it up
 FIWARE can be deployed 
