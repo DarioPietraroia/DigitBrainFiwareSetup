@@ -10,8 +10,8 @@ This repository contains a local FIWARE setup which can be used a as a test envi
 ## Architecture
 FIWARE can be deployed in a 
 
-## Installation
-FIWARE can be deployed 
+## Service provisioning
+To deploy the necessary services clone repository 
 
 ## Setting it up
 FIWARE can be deployed 
