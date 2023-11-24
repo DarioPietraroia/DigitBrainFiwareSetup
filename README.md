@@ -7,8 +7,11 @@ This repository contains a local FIWARE setup which can be used a as a test envi
 2. [Installation](#installation)
    ### Prerequisites
    - A linux distribution, the setup has been tested with Ubuntu 20.01 LTS
-   - GIT installed [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git] (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-   - 
+   - GIT installed https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+   - Docker installed https://docs.docker.com/engine/install/ubuntu/
+   - Docker compose installed https://docs.docker.com/desktop/install/linux-install/
+
+
 4. [Setting it up](#setting-it-up)
 
 ## Architecture
