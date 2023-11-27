@@ -15,7 +15,9 @@ This repository contains a local FIWARE setup which can be used a as a test envi
 4. [Setting it up](#setting-it-up)
 
 ## Architecture
-FIWARE can be deployed in a 
+FIWARE can be deployed in different configuration. The presence of the Orion context boker is enough to define a solution "Powered By Fiware".
+The configuration proposed in this example is the following.
+
 
 ## Service provisioning
 To deploy the necessary services clone repository 
