@@ -24,3 +24,18 @@ To deploy the necessary services clone repository
 
 ## Setting it up
 FIWARE can be deployed 
+###Create users
+
+###Create a token
+
+
+###Create sensors
+
+###Sending data on HTTP
+
+###Sending data on MQTT
+
+###Viewing context data
+
+###Subsc
+
