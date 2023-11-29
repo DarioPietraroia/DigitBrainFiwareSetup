@@ -23,8 +23,8 @@ The configuration proposed in this example is the following.
 To deploy the necessary services clone repository 
 
 ## Setting it up
-'git clone https://github.com/DarioPietraroia/DigitBrainFiwareSetup.git
-./services create; ./services start;
+' git clone https://github.com/DarioPietraroia/DigitBrainFiwareSetup.git
+./services create; ./services start
 '
 ### Create users
 
