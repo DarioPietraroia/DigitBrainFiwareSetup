@@ -23,19 +23,22 @@ The configuration proposed in this example is the following.
 To deploy the necessary services clone repository 
 
 ## Setting it up
-FIWARE can be deployed 
-###Create users
 
-###Create a token
+git clone https://github.com/FIWARE/tutorials.IoT-Sensors.git
+
+./services create; ./services start;
+### Create users
+
+### Create a token
 
 
-###Create sensors
+### Create sensors
 
-###Sending data on HTTP
+### Sending data on HTTP
 
-###Sending data on MQTT
+### Sending data on MQTT
 
-###Viewing context data
+### Viewing context data
 
 ###Subsc
 
